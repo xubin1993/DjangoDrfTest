@@ -1,0 +1,2 @@
+# DjangoDrfTest
+Django+rest_framework+drf_yasg 生成swaggers在线API文档 ) 最近有了给API平台自动生成接口文档的需求，但是我们的API平台没有使用Django的models，而且代码结构也不想做大的改动。经过调研，最后决定采用Django+rest_framework+drf_yasg的方法，最后实现出来很简单。但调研过程中因为自己对Django体系的不熟悉，网上很多文档又没有系统的描述在不使用models与serializers的情况下，如何使用swaggers生成文档，特别是API参数如何在文档中生自动显示，在文档界面如何给API传参等问题，并没有具体的描述（也有可能是我没有找到，或者没有看懂）
